@@ -6,12 +6,12 @@
 
 //正解時の関数
 void correct() {
-	printf("正解です！\n");
+	printf("正解！\n");
 }
 
 //不正解時の関数
 void incorrect() {
-	printf("不正解です...\n");
+	printf("不正解...\n");
 }
 
 //結果を表示するためのコールバック関数
@@ -45,7 +45,7 @@ int main() {
 	bool userIsCorrect = (userGuess == 1 && isOdd) || (userGuess == 2 && !isOdd);
 
 	//3秒待つ
-	printf("結果を待っています...\n");
+	printf("果たして正解は...!?\n");
 	std::this_thread::sleep_for(std::chrono::seconds(3));
 
 	//結果をコールバック関数で表示
