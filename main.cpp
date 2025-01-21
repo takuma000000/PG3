@@ -4,7 +4,7 @@
 
 int main() {
 	// 100,000文字の文字列を初期化
-	std::string a(100000, 'a');
+	std::string a(1000000, 'a');
 
 	// コピーにかかる時間を計測
 	auto start_copy = std::chrono::high_resolution_clock::now();
