@@ -20,8 +20,8 @@ int main() {
 
 	// 結果を表示
 	printf("100,000文字を移動とコピーで比較しました。\n");
-	printf("コピー: %lldus\n", copy_time); // マイクロ秒で出力
-	printf("移動: %lldus\n", move_time); // マイクロ秒で出力
+	printf("コピー: %lldμs\n", copy_time); // マイクロ秒で出力
+	printf("移動: %lldμs\n", move_time); // マイクロ秒で出力
 
 	// 続行待ち
 	printf("続行するには何かキーを押してください・・・\n");
